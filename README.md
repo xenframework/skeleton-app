@@ -1,4 +1,4 @@
-application
+Skeleton-App
 ===========
 
-xenFramework Skeleton Application
+xenframework Skeleton Application
