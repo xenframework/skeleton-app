@@ -21,4 +21,10 @@
  *
  * Constraints are optional. You can use RegEx
  */
-return array();
+return array(
+    '/' => array(
+        'controller'        => 'index',
+        'action'            => 'index',
+        'allow'             => array(),
+    ),
+);
