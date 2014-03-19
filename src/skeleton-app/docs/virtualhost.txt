@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+    ServerName xenframework.local
+    DocumentRoot /path_to/xenframework.local/public
+    ErrorLog "/path_to/xenframework.local/logs/error_log"
+    CustomLog "/path_to/xenframework.local/logs/access_log" common
+
+    <Directory /path_to/xenframework.local/public/>
+        Options Indexes FollowSymLinks
+        DirectoryIndex index.php
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
