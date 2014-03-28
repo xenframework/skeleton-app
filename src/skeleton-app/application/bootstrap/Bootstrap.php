@@ -20,5 +20,15 @@ use xen\application\bootstrap\BootstrapBase;
 
 class Bootstrap extends BootstrapBase
 {
-
+    /**
+     * _initRole
+     *
+     * Set the role for ACL
+     *
+     * @return string
+     */
+    protected function _initRole()
+    {
+        return 'guest';
+    }
 }

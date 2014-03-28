@@ -1,8 +1,10 @@
-<div>
-	<p>This view belongs to:</p>
+<h1><?php echo $this->out($this->title); ?></h1>
 
-	<ul>
-		<li><b>controller</b>: Error</li>
-		<li><b>action</b>: exceptionHandler</li>
-	</ul>
-</div>
+<table>
+    <?php foreach($this->msgs as $key => $value): ?>
+    <tr>
+        <td><?php echo $key; ?></td>
+        <td><?php echo $value; ?></td>
+    </tr>
+    <?php endforeach; ?>
+</table>

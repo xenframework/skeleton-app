@@ -1,8 +1,6 @@
-<div>
-	<p>This view belongs to:</p>
+<h1><?php echo $this->out($this->title); ?></h1>
 
-	<ul>
-		<li><b>controller</b>: Error</li>
-		<li><b>action</b>: forbidden</li>
-	</ul>
+<div class="warning">
+    <p>You do not have permission to access: <?php echo $this->_router->toUrl($this->controller, $this->action) ?> on
+    this server.</p>
 </div>
