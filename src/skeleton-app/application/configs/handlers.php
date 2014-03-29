@@ -14,4 +14,14 @@
  * file that was distributed with this source code.
  */
 
+/**
+ * array(
+ *      'Handler1' => array('Event1', 'Event2', ... 'EventN'),
+ *      'Handler2' => array('Event1', 'Event2', ... 'EventN'),
+ *      ...
+ *      'HandlerN' => array('Event1', 'Event2', ... 'EventN'),
+ * )
+ *
+ * HandlerN must be a class name located in 'application/eventHandlers'
+ */
 return array();
