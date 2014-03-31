@@ -26,7 +26,7 @@ class ErrorController extends ErrorControllerBase
         $this->_layout->title           = 'Error 404 - Page Not Found';
         $this->_layout->description     = '404';
 
-        $this->_view->url = $this->getParam('url');
+        $this->_view->url               = $this->getParam('url');
 
         return $this->render();
     }
@@ -61,8 +61,8 @@ class ErrorController extends ErrorControllerBase
         $this->_layout->title           = 'Error 403 - Forbidden';
         $this->_layout->description     = 'You do not have permission to access';
 
-        $this->_view->controller = $this->getParam('controller');
-        $this->_view->action = $this->getParam('action');
+        $this->_view->controller        = $this->getParam('controller');
+        $this->_view->action            = $this->getParam('action');
 
         $this->_response->setStatusCode(403);
 

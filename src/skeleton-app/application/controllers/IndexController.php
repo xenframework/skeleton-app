@@ -20,10 +20,6 @@ use xen\mvc\Controller;
 
 class IndexController extends Controller
 {
-    public function init()
-    {
-    }
-
     public function indexAction()
     {
         return $this->render();
