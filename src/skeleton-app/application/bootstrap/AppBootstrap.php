@@ -14,12 +14,11 @@
  * file that was distributed with this source code.
  */
 
-/**
- * All paths will be relative to project directory
- */
-chdir(dirname(__DIR__));
+namespace bootstrap;
 
-require str_replace('/', DIRECTORY_SEPARATOR, 'vendor/xen/kernel/Application.php');
+use xen\kernel\bootstrap\BootstrapBase;
 
-$app = new \xen\kernel\Application(\xen\kernel\Application::DEVELOPMENT);
-$app->run();
+class AppBootstrap extends BootstrapBase
+{
+
+}

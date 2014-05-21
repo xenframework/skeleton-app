@@ -14,4 +14,14 @@
  * file that was distributed with this source code.
  */
 
-return array();
+return array(
+    'db1' => array(
+        'driver'    => '',
+        'hostname'  => '',
+        'port'      => '',
+        'dbname'    => '',
+        'username'  => '',
+        'password'  => '',
+        'charset'   => '',
+    ),
+);

@@ -15,11 +15,20 @@
  */
 
 /**
- * All paths will be relative to project directory
+ * Param name is the string between the brackets
+ *
+ * A route must start with a slash
+ *
+ * Only the controller and the action are mandatory
+ *
+ * Constraints are optional. You can use RegEx
+ *
+ * if expires is set, then it will be cached [0 | empty ==> not cached]
  */
-chdir(dirname(__DIR__));
-
-require str_replace('/', DIRECTORY_SEPARATOR, 'vendor/xen/kernel/Application.php');
-
-$app = new \xen\kernel\Application(\xen\kernel\Application::DEVELOPMENT);
-$app->run();
+return array(
+    'main_controllers_index_index' => array(
+        'path'              => '/',
+        'controller'        => 'index',
+        'action'            => 'index',
+    ),
+);

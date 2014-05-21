@@ -13,13 +13,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
-/**
- * All paths will be relative to project directory
- */
-chdir(dirname(__DIR__));
-
-require str_replace('/', DIRECTORY_SEPARATOR, 'vendor/xen/kernel/Application.php');
-
-$app = new \xen\kernel\Application(\xen\kernel\Application::DEVELOPMENT);
-$app->run();
+return array(
+    'mvc'       => array(),
+    'package'   => array(),
+);
