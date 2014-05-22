@@ -1,0 +1,25 @@
+{
+    "name": "xenframework/skeleton-app",
+    "type": "project",
+    "description": "xenframework - skeleton-app",
+    "keywords": ["xenframework"],
+    "homepage": "http://www.xenframework.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ismael Trascastro",
+            "email": "itrascastro@xenframework.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "xenframework/xen": "2.0.0.*@dev",
+        "doctrine/orm": "*"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.0-dev"
+        }
+    }
+}

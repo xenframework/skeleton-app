@@ -19,7 +19,7 @@
  */
 chdir(dirname(__DIR__));
 
-require str_replace('/', DIRECTORY_SEPARATOR, 'vendor/xen/kernel/Application.php');
+require str_replace('/', DIRECTORY_SEPARATOR, 'vendor/xenframework/xen/src/xen/kernel/Application.php');
 
 $app = new \xen\kernel\Application(\xen\kernel\Application::DEVELOPMENT);
 $app->run();
