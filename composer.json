@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "xenframework/xen": "*",
+        "xenframework/xen": "dev-master",
         "doctrine/orm": "*"
     },
     "minimum-stability": "dev",
