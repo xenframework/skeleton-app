@@ -94,4 +94,4 @@ Finally we need to create a new entry in the /etc/hosts like this
 
 Remember to restart apache
 
-	apache-ctl restart
+	apachectl restart
