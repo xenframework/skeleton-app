@@ -14,7 +14,6 @@
     "require": {
         "php": ">=5.3.3",
         "xenframework/xen": "2.0.0.*@dev",
-        "doctrine/orm": "*"
     },
     "minimum-stability": "dev",
     "extra": {
