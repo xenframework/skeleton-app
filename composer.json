@@ -13,12 +13,12 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "xenframework/xen": "2.0.0.x-dev"
+        "xenframework/xen": "2.0.x-dev"
     },
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.0-dev"
+            "dev-master": "2.0.x-dev"
         }
     }
 }
