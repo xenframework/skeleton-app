@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "xenframework/xen": "~3.0"
+        "xenframework/xen": "~2.0"
     },
     "minimum-stability": "dev",
     "extra": {
